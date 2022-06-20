@@ -11,10 +11,10 @@ on:
 #
 # 2. Change these variables for your configuration:
 env:
-  AZURE_FUNCTIONAPP_NAME: ccitestfunctionapp      # set this to your function app name on Azure
+  AZURE_FUNCTIONAPP_NAME: ccijavaelevent      # set this to your function app name on Azure
   POM_XML_DIRECTORY: '.'                     # set this to the directory which contains pom.xml file
-  JAVA_VERSION: '1.8'                      # set this to the dotnet version to use
-  POM_FUNCTIONAPP_NAME: azure-functions-sample
+  JAVA_VERSION: '11'                      # set this to the dotnet version to use
+  POM_FUNCTIONAPP_NAME: my-spring-function
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
